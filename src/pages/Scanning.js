@@ -37,7 +37,7 @@ function Scanning() {
     setScan(false);
   }
   return (
-    <div className="flex flex-col justify-center items-center bg-cyan-50 h-full">
+    <div className="flex flex-col justify-center items-center bg-cyan-50 h-screen">
         {hasilScan == '' ? 
         <div className="w-11/12 h-9/12 rounded-lg mb-10 ">
             <video id="scanBox" className="w-full h-full rounded-lg">

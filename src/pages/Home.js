@@ -5,6 +5,7 @@ import {ImPower} from 'react-icons/im'
 import {FiPower} from 'react-icons/fi'
 import {BiCoinStack} from 'react-icons/bi'
 import {IoMdPerson} from 'react-icons/io'
+import { Link } from 'react-router-dom'
 
 function Home() {
   return (
@@ -52,7 +53,7 @@ function Home() {
                     <div className='bg-cyan-700 w-4 h-4 rounded-full flex justify-center items-center'>
                         <BiCoinStack className='w-2 h-2 text-white' />
                     </div>
-                    <h2 className='text-sm font-bold ml-1'>Sisa Dana</h2>
+                    <h2 className='text-sm font-bold ml-1'>Total Pengeluaran</h2>
                 </div>
                 <p>Rp <span className='md:text-4xl text-2xl'>7.56K</span></p>
             </div>
@@ -61,13 +62,13 @@ function Home() {
         {/* Menu */}
         <div className='mt-6'>
             <div className='md:w-6/12 w-10/12 mx-auto flex justify-around bg-cyan-800 py-4 rounded-xl shadow-lg'>
-                <div className='flex flex-col justify-center items-center'>
+                <Link to="/topup" className='flex flex-col justify-center items-center'>
                     <FaMoneyBillWave className='text-cyan-900 w-9 h-9 p-2 bg-white rounded-lg shadow-lg' />
                     <h3 className='text-xs text-white font-normal mt-1 text-center'>Top Up</h3>
-                </div>
+                </Link>
                 <div className='flex flex-col justify-center items-center'>
                     <FaMoneyCheckAlt className='text-cyan-900 w-9 h-9 p-2 bg-white rounded-lg shadow-lg' />
-                    <h3 className='text-xs text-white font-normal mt-1 text-center'>Tagihan</h3>
+                    <h3 className='text-xs text-white font-normal mt-1 text-center'>Laporan</h3>
                 </div>
                 <div className='flex flex-col justify-center items-center'>
                     <FaHistory className='text-cyan-900 w-9 h-9 p-2 bg-white rounded-lg shadow-lg' />
