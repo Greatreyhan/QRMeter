@@ -1,4 +1,4 @@
-import { Scanning, Splash, Home, Signup, Login, TopUp, Invoice, FirebaseTest} from "./pages";
+import { Scanning, Splash, Home, Signup, Login, TopUp, Invoice, FirebaseTest, MenuTopUp} from "./pages";
 import {
   BrowserRouter,
   Routes,
@@ -16,7 +16,7 @@ const App = () => {
         <Route path="/splash" element={<Splash />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/login" element={<Login />} />
-        <Route path="/topup" element={<TopUp />} />
+        <Route path="/topup" element={<MenuTopUp />} />
         <Route path="/scanning" element={<Scanning />} />
         <Route path="/invoice" elemet={<Invoice />} />
       </Routes>

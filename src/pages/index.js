@@ -6,5 +6,6 @@ import TopUp from "./TopUp";
 import Login from "./Login";
 import Invoice from "./Invoice";
 import FirebaseTest from "./FirebaseTest";
+import MenuTopUp from "./MenuTopUp";
 
-export {Splash, Scanning, Home, Signup, TopUp, Login, Invoice, FirebaseTest};
+export {Splash, Scanning, Home, Signup, TopUp, Login, Invoice, FirebaseTest, MenuTopUp};

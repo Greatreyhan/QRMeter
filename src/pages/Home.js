@@ -10,6 +10,9 @@ import { Link } from 'react-router-dom'
 function Home() {
   return (
     <div className='bg-cyan-50 h-screen w-full'>
+
+        {/* Notifikasi */}
+
         {/* Profile */}
         <div className='md:w-6/12 w-10/12 mx-auto flex justify-between items-center pt-2'>
             <div className='flex items-center text-cyan-900'>

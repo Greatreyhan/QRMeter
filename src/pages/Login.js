@@ -34,7 +34,7 @@ const handleSubmit = ()=>{
           <label htmlFor="password" className='font-semibold text-md text-cyan-900'>Password</label>
           <input className='border border-cyan-800 border-opacity-50 font-light focus:border-cyan-800 focus:border-2 rounded-md px-3 my-1 py-1 text-sm' name="password" id="password" type="password" placeholder='******' value={form.password} onChange={handleForm} />
         </div>
-        <a className='bg-cyan-800 mt-8 text-white px-6 py-2 block text-center font-semibold rounded-md' onClick={handleSubmit}>Masuk</a>
+        <a className='bg-cyan-800 mt-8 text-white px-6 py-2 block text-center font-semibold rounded-md cursor-pointer' onClick={handleSubmit}>Masuk</a>
         <div className='mt-10'>
           <p className='font-light text-cyan-900 text-sm text-center'>Belum memiliki akun?</p>
           <Link to="/signup" className='font-bold text-cyan-900 text-sm text-center block mx-auto cursor-pointer'>Daftar Sekarang</Link>
