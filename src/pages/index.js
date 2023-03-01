@@ -7,5 +7,8 @@ import Login from "./Login";
 import Invoice from "./Invoice";
 import FirebaseTest from "./FirebaseTest";
 import MenuTopUp from "./MenuTopUp";
+import Laporan from "./Laporan";
+import Riwayat from "./Riwayat";
+import Edit from "./Edit";
 
-export {Splash, Scanning, Home, Signup, TopUp, Login, Invoice, FirebaseTest, MenuTopUp};
+export {Splash, Scanning, Home, Signup, TopUp, Login, Invoice, FirebaseTest, MenuTopUp, Laporan, Riwayat, Edit};

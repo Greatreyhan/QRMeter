@@ -69,18 +69,18 @@ function Home() {
                     <FaMoneyBillWave className='text-cyan-900 w-9 h-9 p-2 bg-white rounded-lg shadow-lg' />
                     <h3 className='text-xs text-white font-normal mt-1 text-center'>Top Up</h3>
                 </Link>
-                <div className='flex flex-col justify-center items-center'>
+                <Link to="/laporan" className='flex flex-col justify-center items-center'>
                     <FaMoneyCheckAlt className='text-cyan-900 w-9 h-9 p-2 bg-white rounded-lg shadow-lg' />
                     <h3 className='text-xs text-white font-normal mt-1 text-center'>Laporan</h3>
-                </div>
-                <div className='flex flex-col justify-center items-center'>
+                </Link>
+                <Link to="/riwayat" className='flex flex-col justify-center items-center'>
                     <FaHistory className='text-cyan-900 w-9 h-9 p-2 bg-white rounded-lg shadow-lg' />
                     <h3 className='text-xs text-white font-normal mt-1 text-center'>Riwayat</h3>
-                </div>
-                <div className='flex flex-col justify-center items-center'>
+                </Link>
+                <Link to="/edit" className='flex flex-col justify-center items-center'>
                     <IoMdPerson className='text-cyan-900 w-9 h-9 p-2 bg-white rounded-lg shadow-lg' />
                     <h3 className='text-xs text-white font-normal mt-1 text-center'>Edit</h3>
-                </div>
+                </Link>
             </div>
         </div>
 
