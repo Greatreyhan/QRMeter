@@ -26,7 +26,7 @@ const Edit = () =>{
   return (
     <div className='bg-cyan-50 w-full h-screen text-cyan-900 pt-12'>
 
-      <div className='w-4/12 flex-col items-center bg-white rounded-lg shadow-lg mx-auto px-8 py-12'>
+      <div className='md:w-4/12 w-10/12 flex-col items-center bg-white rounded-lg shadow-lg mx-auto px-8 py-12'>
         <div className='w-24 h-24 mx-auto'>
             <img className='w-full h-full object-cover rounded-full border-cyan-900 border-2' src="https://t4.ftcdn.net/jpg/03/64/21/11/360_F_364211147_1qgLVxv1Tcq0Ohz3FawUfrtONzz8nq3e.jpg" />
         </div>

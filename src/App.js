@@ -12,7 +12,7 @@ const App = () => {
     <div className="App">
       <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route exact path="/" element={<Home />} />
         <Route path="/splash" element={<Splash />} />
         <Route path="/laporan" element={<Laporan />} />
         <Route path="/riwayat" element={<Riwayat />} />
@@ -21,8 +21,8 @@ const App = () => {
         <Route path="/login" element={<Login />} />
         <Route path="/topup" element={<MenuTopUp />} />
         <Route path="/scanning" element={<Scanning />} />
-        <Route path="/invoice" elemet={<Invoice />} />
-        <Route path="/ewallet" elemet={<TopUp />} />
+        <Route path="/invoice" element={<Invoice />} />
+        <Route path="/topup/ewallet" element={<TopUp />} />
       </Routes>
     </BrowserRouter>
     </div>

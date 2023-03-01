@@ -7,7 +7,7 @@ function Riwayat() {
   return (
     <div className='bg-cyan-50 w-full h-screen text-cyan-900 pt-12'>
 
-      <div className='w-5/12 bg-white rounded-lg shadow-lg mx-auto px-8 py-12'>
+      <div className='md:w-5/12 w-10/12 bg-white rounded-lg shadow-lg mx-auto px-8 py-12'>
         <h1 className='font-bold text-2xl text-center mb-8' >Riwayat Pembelian Listrik </h1>
 
         <div className='flex justify-between items-center my-3 border-b-2 py-1'>

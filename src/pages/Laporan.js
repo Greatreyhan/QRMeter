@@ -3,7 +3,7 @@ import React from 'react'
 function Laporan() {
   return (
     <div className='bg-cyan-50 w-full h-screen text-cyan-900 pt-12'>
-      <div className='w-4/12 bg-white rounded-lg shadow-lg mx-auto px-3 py-12'>
+      <div className='md:w-4/12 w-10/12 bg-white rounded-lg shadow-lg mx-auto px-3 py-12'>
         <h1 className='font-bold text-2xl text-center' >Laporan Penggunaan Listrik Bulan Februari</h1>
 
         {/* Laporan Listrik Bulanan */}
